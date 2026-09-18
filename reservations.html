@@ -1,51 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
 
-<section id="reservation">
+    <title>Veyelle Bistro Reservation</title>
 
-    <h2>Make a Reservation</h2>
+    <style>
 
-    <p>
-        Reserve a table at Veyelle Bistro and enjoy our delicious meals.
-    </p>
+        body {
+            font-family: Georgia, serif;
+        }
 
-    <form>
+        h2 {
+            font-family: Georgia, serif;
+            font-size: 30px;
+        }
 
-        <label for="name">Full Name:</label>
-        <br>
-        <input type="text" id="name" name="name" required>
-        <br><br>
+        label {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
 
-        <label for="email">Email:</label>
-        <br>
-        <input type="email" id="email" name="email" required>
-        <br><br>
+        p {
+            font-family: Arial, sans-serif;
+            font-size: 17px;
+        }
 
-        <label for="phone">Phone Number:</label>
-        <br>
-        <input type="tel" id="phone" name="phone">
-        <br><br>
+        input, select, textarea {
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+        }
 
-        <label for="date">Date:</label>
-        <br>
-        <input type="date" id="date" name="date" required>
-        <br><br>
+        button {
+            font-family: Georgia, serif;
+            font-size: 16px;
+        }
 
-        <label for="time">Time:</label>
-        <br>
-        <input type="time" id="time" name="time" required>
-        <br><br>
+    </style>
 
-        <label for="guests">Number of Guests:</label>
-        <br>
-        <input type="number" id="guests" name="guests" min="1" max="20" required>
-        <br><br>
+</head>
 
-        <label for="requests">Special Requests:</label>
-        <br>
-        <textarea id="requests" name="requests" rows="4" cols="30"></textarea>
-        <br><br>
+<body>
 
-        <button type="submit">Reserve Table</button>
+    <section id="reservation">
 
-    </form>
+        <h2>Make a Reservation</h2>
 
-</section>
+        <p>
+            Reserve a table at Veyelle Bistro and enjoy our delicious meals.
+        </p>
+
+        <form>
+
+            <label for="name">Full Name:</label>
+            <br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <br>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+
+            <label for="date">Date:</label>
+            <br>
+            <input type="date" id="date" name="date" required>
+            <br><br>
+
+            <label for="time">Time:</label>
+            <br>
+            <input type="time" id="time" name="time" required>
+            <br><br>
+
+            <label for="guests">Number of Guests:</label>
+            <br>
+            <input type="number" id="guests" name="guests"
+                   min="1" max="20" required>
+            <br><br>
+
+            <label for="requests">Special Requests:</label>
+            <br>
+
+            <textarea id="requests" name="requests"
+                      rows="4" cols="30"></textarea>
+
+            <br><br>
+
+            <button type="submit">Reserve Table</button>
+
+        </form>
+
+    </section>
+
+</body>
+</html>
